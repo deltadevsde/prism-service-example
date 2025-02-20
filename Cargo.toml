@@ -7,11 +7,9 @@ edition = "2021"
 prism-prover = { git = "https://github.com/deltadevsde/prism", branch = "main", features = [
     "mock_prover",
 ] }
-prism-common = { git = "https://github.com/deltadevsde/prism", branch = "main" }
-prism-tree = { git = "https://github.com/deltadevsde/prism", branch = "main" }
-prism-keys = { git = "https://github.com/deltadevsde/prism", branch = "main" }
 prism-storage = { git = "https://github.com/deltadevsde/prism", branch = "main" }
 prism-da = { git = "https://github.com/deltadevsde/prism", branch = "main" }
+prism-client = { git = "https://github.com/deltadevsde/prism", branch = "main" }
 keystore-rs = { version = "0.3" }
 tokio = { version = "1.16.1", features = ["full"] }
 log = "0.4.7"
